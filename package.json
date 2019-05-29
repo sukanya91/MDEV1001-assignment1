@@ -1,0 +1,23 @@
+{
+  "name": "mdev1001-assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukanya91/MDEV1001-assignment1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sukanya91/MDEV1001-assignment1/issues"
+  },
+  "homepage": "https://github.com/sukanya91/MDEV1001-assignment1#readme",
+  "dependencies": {
+    "sqlite": "^3.0.3",
+    "sqlite3": "^4.0.8"
+  }
+}
