@@ -20,12 +20,11 @@ db.serialize(function(){
     db.run("INSERT INTO Department VALUES('Physics','Watson',70000)");
 
     db.each("SELECT Building, Room_number FROM Classroom WHERE Capacity>50", function(err,row){
-    console.log(row);
+        console.log(row);
     });
     
      db.each("SELECT Dept_name FROM Department WHERE Budjet> 85000",function(err,row){
-    console.log(row);
-        
+        console.log(row);    
     });
 
     let depts = {};
@@ -43,9 +42,7 @@ db.serialize(function(){
             console.log(keys[i] + ": "+depts[keys[i]]);
        
         }
-    });
-
-         
+    });  
 
 });
 
